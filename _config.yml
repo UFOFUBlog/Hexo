@@ -80,7 +80,7 @@ theme: hexo-theme-matery
 deploy:
   type: git
   repository: https://github.com/UFOFUBlog/Hexo
-  branch: master
+  branch: main
 
 # myAdd
 permalink_pinyin:
