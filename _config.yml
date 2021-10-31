@@ -78,9 +78,9 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/UFOFUBlog/Hexo
-  branch: main
+  type: # git
+  repository: # https://github.com/UFOFUBlog/Hexo
+  branch: # main
 
 # myAdd
 permalink_pinyin:
