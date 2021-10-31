@@ -4,7 +4,7 @@
 
 # Site
 title: Hexo
-subtitle:
+subtitle: mySubtitle
 description:
 keywords:
 author: Alan Dai
@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url:  https://github.com/UFOFUBlog/Hexo
-root: /Hexo
+url:  https://hexo-draven.vercel.app/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -73,12 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/UFOFUBlog/Hexo
+  branch: master
 
 # myAdd
 permalink_pinyin:
